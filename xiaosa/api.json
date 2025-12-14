@@ -235,18 +235,6 @@
             }
         },
         {
-            "key": "影视",
-            "name": "影视丨APP",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppQi",
-            "ext": {
-                "site": "https://aysappto.oss-cn-chengdu.aliyuncs.com/qj2.txt",
-                "dataKey": "sada21321sdq231d",
-                "dataIv": "sada21321sdq231d"
-            }
-        },
-        {
             "key": "小猪",
             "name": "小猪丨APP",
             "type": 3,
@@ -270,6 +258,19 @@
                 "dataKey": "staraugust123456",
                 "dataIv": "staraugust123456",
                 "version": "120"
+            }
+        },
+        {
+            "key": "火花",
+            "name": "火花｜APP",
+            "type": 3,
+            "searchable": 1,
+            "changeable": 1,
+            "api": "csp_AppGet",
+            "ext": {
+                "site": "http://php.itcxo.cn/txt/1.txt",
+                "dataKey": "PoiUytRedFghjklm",
+                "dataIv": "PoiUytRedFghjklm"
             }
         },
         {
@@ -1595,22 +1596,34 @@
             "api": "csp_MiSou"
         },
         {
-            "key": "酷乐搜索",
+            "key": "酷乐",
             "name": "酷乐｜搜索",
             "type": 3,
             "api": "csp_KuLe"
         },
         {
-            "key": "鬼鬼搜索",
+            "key": "鬼鬼",
             "name": "鬼鬼｜搜索",
             "type": 3,
             "api": "csp_GuiGui"
         },
         {
-            "key": "混合搜索",
+            "key": "混合",
             "name": "混合｜搜索",
             "type": 3,
             "api": "csp_HunHePan"
+        },
+        {
+            "key": "兄弟",
+            "name": "兄弟｜搜索",
+            "type": 3,
+            "api": "csp_XiongDiPan"
+        },
+        {
+            "key": "天翼",
+            "name": "天翼｜搜索",
+            "type": 3,
+            "api": "csp_TianYiSo"
         },
         {
             "key": "趣盘",
